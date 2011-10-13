@@ -1,0 +1,23 @@
+This is the README file for the Pedalog PIC code.
+Date: 13/10/2011
+
+This code has is based upon Microchip's USB code for the PIC 18F4550.
+Changes have been done by: Matt Little, matt@re-innovation.co.uk
+
+Please feel free to use and change this code, but please acknowledge all authors. 
+
+The file structure is as required by Microchip's IDE.
+It is written in C and will require the C18 compiler from Microchip (the free un-optimised version will work fine).
+
+To use this code:
+
+Save full file structure to a sensible place.
+Open the USB_Pedalog_2010_12_23 file using Microchip MPLAB (free download)
+Ensure that the projects build information is correct (things point to the correct files - email if any problems)
+Build the project - the output hex file will be in the 'outputs' directory.
+Upload this code to the PIC chip using the Microchip bootloader (you must program the IC with this first).
+
+More information on the code and its structure can be found at www.re-innovation.co.uk or email me matt@re-innovation.co.uk.
+
+
+
